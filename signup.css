@@ -1,0 +1,71 @@
+@import url();
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main{
+    max-width: 500px;
+    box-shadow: 2px 3px 4px grey;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    margin-left: -40%;
+}
+label{
+    color: green;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 4%;
+}
+input[type="text"],[type="email"],[type="password"]{
+    width:90%;
+    padding:1%;
+    box-shadow: 1px 2px 3px gray;
+    border-radius: 5px;
+    border: none;
+    margin-left: 4%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+input[type="checkbox"]{
+    accent-color: green;
+    margin-right: 3%;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    font-size: 20px;
+}
+button{
+    border: none;
+    margin-left: 9%;
+    width:80%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px grey;
+}
+button:hover{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+p{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2%;
+    text-decoration: none;
+
+}
+a{
+    
+}
